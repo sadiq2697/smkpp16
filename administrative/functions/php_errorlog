@@ -1,0 +1,12 @@
+[30-Sep-2017 11:49:10 CST6CDT] PHP Fatal error:  Uncaught ErrorException: Error: Duplicate entry '0' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO `notice`(`notice_title`,image, `status`,notice_date) VALUES ('Gandhi Jayanti','150679015059cfcb065db92.JPG','1','now()') in /home/etfdesig/public_html/school/administrative/config.php:38
+Stack trace:
+#0 /home/etfdesig/public_html/school/administrative/functions/notice.php(26): query('INSERT INTO `no...')
+#1 /home/etfdesig/public_html/school/administrative/functions/notice.php(6): add()
+#2 {main}
+  thrown in /home/etfdesig/public_html/school/administrative/config.php on line 38
+[01-Oct-2017 00:17:42 CST6CDT] PHP Fatal error:  Uncaught ErrorException: Error: Unknown column 'notice_description' in 'field list'<br />Error No: 1054<br />INSERT INTO `notice`(`notice_title`,notice_description,image, `status`,notice_date) VALUES ('October 2, 2017 [Gandhi Jayanti] ','School will remain closed on account of the Birthday Celebration of the father of Nation, Gandhi Ji','','1',now()) in /home/etfdesig/public_html/school/administrative/config.php:38
+Stack trace:
+#0 /home/etfdesig/public_html/school/administrative/functions/notice.php(27): query('INSERT INTO `no...')
+#1 /home/etfdesig/public_html/school/administrative/functions/notice.php(6): add()
+#2 {main}
+  thrown in /home/etfdesig/public_html/school/administrative/config.php on line 38
