@@ -13,7 +13,7 @@
 
     <title>Contact</title>
     <!-- Custom Main StyleSheet CSS -->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- Color CSS -->
     <link href="css/color.css" rel="stylesheet">
     <!-- Responsive CSS -->

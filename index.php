@@ -17,7 +17,7 @@
 	<!-- Custom Main StyleSheet CSS -->
     <link href="css/login-register.css" rel="stylesheet">
 
-    <link href="style.css" rel="stylesheet">
+    <link href="css/css/style.css" rel="stylesheet">
     <!-- Color CSS -->
     <link href="css/color.css" rel="stylesheet">
     <!-- Responsive CSS -->

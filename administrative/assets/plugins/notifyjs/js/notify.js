@@ -610,7 +610,7 @@
 	});
 
 	$(function() {
-		insertCSS(coreStyle.css).attr("id", "core-notify");
+		insertCSS(corestyle.css).attr("id", "core-notify");
 		$(document).on("click", "." + pluginClassName + "-hidable", function(e) {
 			$(this).trigger("notify-hide");
 		});
